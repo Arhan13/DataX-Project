@@ -34,18 +34,13 @@ function Navbar() {
 					<div className="menu-item clearfix">
 						<ul className="menu-ul clearfix">
 							<li>
-								<Link to="/staking" className="location-anchor">
-									<div style={{ fontSize: "1.2rem" }}>Staking</div>
+								<Link to="/manage" className="location-anchor">
+									<div style={{ fontSize: "1.2rem" }}>Manage</div>
 								</Link>
 							</li>
 							<li>
-								<Link to="/" className="location-anchor">
-									<div style={{ fontSize: "1.2rem" }}>Dashboard</div>
-								</Link>
-							</li>
-							<li>
-								<Link to="/addreward" className="location-anchor">
-									<div style={{ fontSize: "1.2rem" }}>Add Reward</div>
+								<Link to="/graphs" className="location-anchor">
+									<div style={{ fontSize: "1.2rem" }}>Graphs</div>
 								</Link>
 							</li>
 						</ul>

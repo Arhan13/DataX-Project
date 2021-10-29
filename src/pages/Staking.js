@@ -80,17 +80,11 @@ function Staking() {
 							onChange={event => handleChangeInput(inputField.id, event)}
 						/>
 						<TextField
+							type="number"
 							name="quantity"
 							label="Quantity"
 							variant="filled"
 							value={inputField.quantity}
-							onChange={event => handleChangeInput(inputField.id, event)}
-						/>
-						<TextField
-							name="minQuantity"
-							label="Minimum Quantity"
-							variant="filled"
-							value={inputField.minQuantity}
 							onChange={event => handleChangeInput(inputField.id, event)}
 						/>
 						<IconButton

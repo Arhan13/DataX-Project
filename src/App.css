@@ -2,17 +2,13 @@ body {
 	font-family: "Roboto", Helvetica, sans-serif;
 	margin: 0px;
 	padding: 0px;
-	background: #4e54c8; /* fallback for old browsers */
+	background: #e43a15; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
 		to right,
-		#8f94fb,
-		#4e54c8
+		#e43a15,
+		#e65245
 	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to right,
-		#8f94fb,
-		#4e54c8
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, #e43a15, #e65245);
 }
 .mint-page-container {
 	display: flex;
@@ -29,17 +25,13 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: #4e54c8; /* fallback for old browsers */
+	background: #e43a15; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
 		to right,
-		#8f94fb,
-		#4e54c8
+		#e43a15,
+		#e65245
 	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to right,
-		#8f94fb,
-		#4e54c8
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, #e43a15, #e65245);
 }
 nav {
 	position: relative;

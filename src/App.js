@@ -5,6 +5,7 @@ import Staking from "./pages/Staking"
 import Home from "./pages/Home"
 import AddReward from "./pages/AddReward"
 import Steps from "./pages/Steps"
+import Graphs from "./pages/Graphs"
 import GlobalSpinner from "./components/GlobalSpinner/GlobalSpinner"
 
 function App() {
@@ -12,9 +13,9 @@ function App() {
 		<div className="App">
 			<Navbar />
 			<Switch>
-				<Route path="/" component={Staking} exact />
-				<Route path="/staking" component={Steps} />
-				<Route path="/addReward" component={AddReward} />
+				<Route path="/" component={Steps} exact />
+				<Route path="/manage" component={Staking} />
+				<Route path="/graphs" component={Graphs} />
 			</Switch>
 			<div style={{ position: "fixed", bottom: "70px", right: "100px" }}>
 				<GlobalSpinner />
