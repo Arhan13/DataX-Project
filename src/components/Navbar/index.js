@@ -44,21 +44,6 @@ function Navbar() {
 								</Link>
 							</li>
 						</ul>
-						<div className="menu-item-button">
-							{!active ? (
-								<div onClick={handleConnect} className="stake-button">
-									<span>CONNECT</span>
-								</div>
-							) : (
-								<div className="stake-button">
-									<span onClick={deactivate}>
-										{chainId == CHAINS.RINKEBY
-											? account.slice(0, 6) + "..." + account.slice(-4)
-											: "SWITCH NETWORK"}
-									</span>
-								</div>
-							)}
-						</div>
 					</div>
 
 					<div className="slide-menu-overlay"></div>
