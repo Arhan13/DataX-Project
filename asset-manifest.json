@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/DataX-project-fe/static/css/main.af7c0764.chunk.css",
+    "main.js": "/DataX-project-fe/static/js/main.00d47f5b.chunk.js",
+    "main.js.map": "/DataX-project-fe/static/js/main.00d47f5b.chunk.js.map",
+    "runtime-main.js": "/DataX-project-fe/static/js/runtime-main.b8235679.js",
+    "runtime-main.js.map": "/DataX-project-fe/static/js/runtime-main.b8235679.js.map",
+    "static/js/2.46b2691a.chunk.js": "/DataX-project-fe/static/js/2.46b2691a.chunk.js",
+    "static/js/2.46b2691a.chunk.js.map": "/DataX-project-fe/static/js/2.46b2691a.chunk.js.map",
+    "static/js/3.d6be2900.chunk.js": "/DataX-project-fe/static/js/3.d6be2900.chunk.js",
+    "static/js/3.d6be2900.chunk.js.map": "/DataX-project-fe/static/js/3.d6be2900.chunk.js.map",
+    "index.html": "/DataX-project-fe/index.html",
+    "static/css/main.af7c0764.chunk.css.map": "/DataX-project-fe/static/css/main.af7c0764.chunk.css.map",
+    "static/js/2.46b2691a.chunk.js.LICENSE.txt": "/DataX-project-fe/static/js/2.46b2691a.chunk.js.LICENSE.txt",
+    "static/media/3dGraph.88930893.jpeg": "/DataX-project-fe/static/media/3dGraph.88930893.jpeg",
+    "static/media/continousMcSimulationGraph.a94fab86.jpeg": "/DataX-project-fe/static/media/continousMcSimulationGraph.a94fab86.jpeg",
+    "static/media/drifeLogo.d81f21d0.jpeg": "/DataX-project-fe/static/media/drifeLogo.d81f21d0.jpeg",
+    "static/media/monteCarloContinuousReviewGraph.c5e69860.jpeg": "/DataX-project-fe/static/media/monteCarloContinuousReviewGraph.c5e69860.jpeg",
+    "static/media/optimumPeriodicReviewStats.e0634374.jpeg": "/DataX-project-fe/static/media/optimumPeriodicReviewStats.e0634374.jpeg",
+    "static/media/periodicMcSim.6c8f70ca.jpeg": "/DataX-project-fe/static/media/periodicMcSim.6c8f70ca.jpeg",
+    "static/media/periodicMonteCarlo.70a708e8.jpeg": "/DataX-project-fe/static/media/periodicMonteCarlo.70a708e8.jpeg",
+    "static/media/periodicReviewStats.83a584c1.jpeg": "/DataX-project-fe/static/media/periodicReviewStats.83a584c1.jpeg",
+    "static/media/prod1-freq.517d564f.jpeg": "/DataX-project-fe/static/media/prod1-freq.517d564f.jpeg",
+    "static/media/prod2-freq.8ba1b458.jpeg": "/DataX-project-fe/static/media/prod2-freq.8ba1b458.jpeg",
+    "static/media/prod3-freq.8c68681d.jpeg": "/DataX-project-fe/static/media/prod3-freq.8c68681d.jpeg",
+    "static/media/prod4-freq.a2730c0c.jpeg": "/DataX-project-fe/static/media/prod4-freq.a2730c0c.jpeg",
+    "static/media/productDemand.707d23ec.jpeg": "/DataX-project-fe/static/media/productDemand.707d23ec.jpeg",
+    "static/media/productInfo.a2a14df9.jpeg": "/DataX-project-fe/static/media/productInfo.a2a14df9.jpeg",
+    "static/media/safetyStockForIndividualProduct.2f0fef25.jpeg": "/DataX-project-fe/static/media/safetyStockForIndividualProduct.2f0fef25.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8235679.js",
+    "static/js/2.46b2691a.chunk.js",
+    "static/css/main.af7c0764.chunk.css",
+    "static/js/main.00d47f5b.chunk.js"
+  ]
+}
