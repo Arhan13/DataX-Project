@@ -5,7 +5,7 @@ import Staking from "./pages/Staking"
 import Home from "./pages/Home"
 import AddReward from "./pages/AddReward"
 import Steps from "./pages/Steps"
-import Graphs from "./pages/Graphs"
+import Stats from "./pages/Stats"
 import Profile from "./pages/Profile"
 import GlobalSpinner from "./components/GlobalSpinner/GlobalSpinner"
 
@@ -16,7 +16,7 @@ function App() {
 			<Switch>
 				<Route path="/" component={Profile} exact />
 				<Route path="/manage" component={Staking} exact />
-				<Route path="/graphs" component={Graphs} exact />
+				<Route path="/stats" component={Stats} exact />
 			</Switch>
 			<div style={{ position: "fixed", bottom: "70px", right: "100px" }}>
 				<GlobalSpinner />

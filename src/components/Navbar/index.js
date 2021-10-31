@@ -39,8 +39,8 @@ function Navbar() {
 								</Link>
 							</li>
 							<li>
-								<Link to="/graphs" className="location-anchor">
-									<div style={{ fontSize: "1.2rem" }}>Graphs</div>
+								<Link to="/stats" className="location-anchor">
+									<div style={{ fontSize: "1.2rem" }}>Stats</div>
 								</Link>
 							</li>
 						</ul>
