@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { injected } from "../../wallet/connector"
 import { useWeb3React } from "@web3-react/core"
 import { Link } from "react-router-dom"

@@ -27,7 +27,6 @@ export default function Stats() {
 					display: "flex",
 					justifyContent: "center",
 					alignItems: "space-between",
-					gap: "1rem",
 					textAlign: "center",
 					color: "#333333",
 					gap: "5vh",
@@ -43,7 +42,10 @@ export default function Stats() {
 						borderRadius: "20px",
 					}}>
 					<h1>Continous Mc Simulation</h1>
-					<img src={continousMcSimulationGraph} />
+					<img
+						src={continousMcSimulationGraph}
+						alt="continousMcSimulationGraph"
+					/>
 				</Card>
 				<Card
 					className="cardMui"
@@ -56,7 +58,7 @@ export default function Stats() {
 						borderRadius: "20px",
 					}}>
 					<h1>Periodic Mc Simulation</h1>
-					<img src={periodicMcSim} />
+					<img src={periodicMcSim} alt="continousMcSimulationGraph" />
 				</Card>
 			</div>
 
@@ -66,7 +68,6 @@ export default function Stats() {
 					display: "flex",
 					justifyContent: "center",
 					alignItems: "space-between",
-					gap: "1rem",
 					textAlign: "center",
 					color: "#333333",
 					gap: "5vh",
@@ -84,6 +85,7 @@ export default function Stats() {
 					<img
 						src={monteCarloContinuousReviewGraph}
 						style={{ maxWidth: "95%", maxHeight: "auto" }}
+						alt="continousMcSimulationGraph"
 					/>
 				</Card>
 				<Card
@@ -99,6 +101,7 @@ export default function Stats() {
 					<img
 						src={periodicMonteCarlo}
 						style={{ maxWidth: "95%", maxHeight: "auto" }}
+						alt="continousMcSimulationGraph"
 					/>
 				</Card>
 			</div>
@@ -109,7 +112,6 @@ export default function Stats() {
 					display: "flex",
 					justifyContent: "center",
 					alignItems: "space-between",
-					gap: "1rem",
 					textAlign: "center",
 					color: "#333333",
 					gap: "5vh",
@@ -127,6 +129,7 @@ export default function Stats() {
 					<img
 						src={optimumPeriodicReviewStats}
 						style={{ maxWidth: "95%", maxHeight: "auto" }}
+						alt="continousMcSimulationGraph"
 					/>
 				</Card>
 				<Card
@@ -142,6 +145,7 @@ export default function Stats() {
 					<img
 						src={periodicReviewStats}
 						style={{ maxWidth: "95%", maxHeight: "auto" }}
+						alt="continousMcSimulationGraph"
 					/>
 				</Card>
 			</div>
@@ -152,7 +156,6 @@ export default function Stats() {
 					flexDirection: "column",
 					justifyContent: "center",
 					alignItems: "space-between",
-					gap: "1rem",
 					textAlign: "center",
 					color: "#333333",
 					gap: "5vh",
@@ -171,6 +174,7 @@ export default function Stats() {
 					<img
 						src={threeDGraph}
 						style={{ maxWidth: "95%", maxHeight: "auto" }}
+						alt="continousMcSimulationGraph"
 					/>
 				</Card>
 				<Card
@@ -186,6 +190,7 @@ export default function Stats() {
 					<img
 						src={safetyStockForIndividualProduct}
 						style={{ maxWidth: "95%", maxHeight: "auto" }}
+						alt="continousMcSimulationGraph"
 					/>
 				</Card>
 			</div>

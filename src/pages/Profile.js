@@ -1,6 +1,4 @@
 import { Card } from "@material-ui/core"
-import CardHeader from "@mui/material/CardHeader"
-
 import React from "react"
 import prod1freq from "../assets/prod1-freq.jpeg"
 import prod2freq from "../assets/prod2-freq.jpeg"
@@ -118,19 +116,19 @@ export default function Profile() {
 				}}>
 				<Card className="cardMui" style={{ borderRadius: "20px" }}>
 					<h2>Product 1</h2>
-					<img src={prod1freq} />
+					<img src={prod1freq} alt="continousMcSimulationGraph" />
 				</Card>
 				<Card className="cardMui" style={{ borderRadius: "20px" }}>
 					<h2>Product 2</h2>
-					<img src={prod2freq} />
+					<img src={prod2freq} alt="continousMcSimulationGraph" />
 				</Card>
 				<Card className="cardMui" style={{ borderRadius: "20px" }}>
 					<h2>Product 3</h2>
-					<img src={prod3freq} />
+					<img src={prod3freq} alt="continousMcSimulationGraph" />
 				</Card>
 				<Card className="cardMui" style={{ borderRadius: "20px" }}>
 					<h2>Product 4</h2>
-					<img src={prod4freq} />
+					<img src={prod4freq} alt="continousMcSimulationGraph" />
 				</Card>
 			</div>
 			<h1 style={{ marginTop: "3rem", marginBottom: "1rem" }}>
@@ -147,7 +145,7 @@ export default function Profile() {
 				}}>
 				<Card className="cardMui" style={{ borderRadius: "20px" }}>
 					<h2>Product Demand</h2>
-					<img src={productDemand} />
+					<img src={productDemand} alt="continousMcSimulationGraph" />
 				</Card>
 			</div>
 			<h1 style={{ marginTop: "3rem", marginBottom: "1rem" }}>Product Info</h1>
@@ -163,7 +161,7 @@ export default function Profile() {
 					className="cardMui"
 					style={{ borderRadius: "20px", marginBottom: "5rem" }}>
 					<h2>Product Info</h2>
-					<img src={productInfo} />
+					<img src={productInfo} alt="continousMcSimulationGraph" />
 				</Card>
 			</div>
 		</div>
