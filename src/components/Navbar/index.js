@@ -34,6 +34,11 @@ function Navbar() {
 					<div className="menu-item clearfix">
 						<ul className="menu-ul clearfix">
 							<li>
+								<Link to="/about" className="location-anchor">
+									<div style={{ fontSize: "1.2rem" }}>About</div>
+								</Link>
+							</li>
+							<li>
 								<Link to="/manage" className="location-anchor">
 									<div style={{ fontSize: "1.2rem" }}>Manage</div>
 								</Link>
