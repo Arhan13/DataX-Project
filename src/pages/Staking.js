@@ -6,6 +6,7 @@ import IconButton from "@material-ui/core/IconButton"
 import RemoveIcon from "@material-ui/icons/Remove"
 import AddIcon from "@material-ui/icons/Add"
 import { v4 as uuidv4 } from "uuid"
+import manage from "../assets/manage.svg"
 
 import { makeStyles } from "@material-ui/core/styles"
 
@@ -61,7 +62,7 @@ function Staking() {
 	return (
 		<Container
 			style={{
-				marginTop: "20vh",
+				marginTop: "10vh",
 				display: "flex",
 				flexDirection: "column",
 				alignItems: "center",
@@ -69,43 +70,53 @@ function Staking() {
 				color: "white",
 			}}>
 			<h1>Manage Inventory</h1>
-			<form className={classes.root} onSubmit={handleSubmit}>
-				{inputFields.map(inputField => (
-					<div key={inputField.id}>
-						<TextField
-							name="itemName"
-							label="Item Name"
-							variant="filled"
-							value={inputField.itemName}
-							onChange={event => handleChangeInput(inputField.id, event)}
-						/>
-						<TextField
-							type="number"
-							name="quantity"
-							label="Quantity"
-							variant="filled"
-							value={inputField.quantity}
-							onChange={event => handleChangeInput(inputField.id, event)}
-						/>
-						<IconButton
-							disabled={inputFields.length === 1}
-							onClick={() => handleRemoveFields(inputField.id)}>
-							<RemoveIcon />
-						</IconButton>
-						<IconButton onClick={handleAddFields}>
-							<AddIcon />
-						</IconButton>
-					</div>
-				))}
-				<Button
-					className={classes.button}
-					variant="contained"
-					color="primary"
-					type="submit"
-					onClick={handleSubmit}>
-					Submit
-				</Button>
-			</form>
+			<div style={{
+				display:"flex",
+				justifyContent: "space-between",
+				alignItems: "center",
+				padding: "5%",
+				gap: "20vh",
+				width: "100%"
+			}}>
+				<img src={manage} style={{maxHeight:"80vh",maxWidth:"auto"}}/>
+				<form className={classes.root} onSubmit={handleSubmit}>
+					{inputFields.map(inputField => (
+						<div key={inputField.id}>
+							<TextField
+								name="itemName"
+								label="Item Name"
+								variant="filled"
+								value={inputField.itemName}
+								onChange={event => handleChangeInput(inputField.id, event)}
+							/>
+							<TextField
+								type="number"
+								name="quantity"
+								label="Quantity"
+								variant="filled"
+								value={inputField.quantity}
+								onChange={event => handleChangeInput(inputField.id, event)}
+							/>
+							<IconButton
+								disabled={inputFields.length === 1}
+								onClick={() => handleRemoveFields(inputField.id)}>
+								<RemoveIcon />
+							</IconButton>
+							<IconButton onClick={handleAddFields}>
+								<AddIcon />
+							</IconButton>
+						</div>
+					))}
+					<Button
+						className={classes.button}
+						variant="contained"
+						color="primary"
+						type="submit"
+						onClick={handleSubmit}>
+						Submit
+					</Button>
+				</form>
+			</div>
 		</Container>
 	)
 }

@@ -21,7 +21,7 @@ export default function Stats() {
 				color: "#333333",
 				padding: "3%",
 			}}>
-			<h1>MC Simulation Graph</h1>
+			<h1 >MC Simulation Graph</h1>
 			<div
 				style={{
 					display: "flex",

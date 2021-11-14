@@ -3,6 +3,7 @@ import { injected } from "../../wallet/connector"
 import { useWeb3React } from "@web3-react/core"
 import { Link } from "react-router-dom"
 import drifeLogo from "../../assets/drifeLogo.jpeg"
+import logo from "../../assets/logo.jpeg"
 import "../../pages/Staking.css"
 const CHAINS = {
 	RINKEBY: 4,
@@ -21,8 +22,8 @@ function Navbar() {
 				<nav>
 					<Link to="/">
 						<img
-							src={drifeLogo}
-							style={{ width: "3rem", height: "3rem", marginTop: "0.5rem" }}
+							src={logo}
+							style={{ width: "5rem", height: "3rem", marginTop: "0.5rem" }}
 						/>
 					</Link>
 					<a href="#" className="hamburger-menu">
@@ -39,6 +40,11 @@ function Navbar() {
 								</Link>
 							</li>
 							<li>
+								<Link to="/Profile" className="location-anchor">
+									<div style={{ fontSize: "1.2rem" }}>Profile</div>
+								</Link>
+							</li>
+							<li>
 								<Link to="/manage" className="location-anchor">
 									<div style={{ fontSize: "1.2rem" }}>Manage</div>
 								</Link>
@@ -46,6 +52,11 @@ function Navbar() {
 							<li>
 								<Link to="/stats" className="location-anchor">
 									<div style={{ fontSize: "1.2rem" }}>Stats</div>
+								</Link>
+							</li>
+							<li>
+								<Link to="/feedback" className="location-anchor">
+									<div style={{ fontSize: "1.2rem" }}>feedback</div>
 								</Link>
 							</li>
 						</ul>

@@ -5,7 +5,7 @@ function Home() {
     <div
       style={{
         marginTop: "100px",
-        color: "#333",
+        color: "#fff",
         fontSize: "5rem",
         textAlign: "center",
       }}
