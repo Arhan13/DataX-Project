@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/DataX-Project/static/css/main.57776b75.chunk.css",
-    "main.js": "/DataX-Project/static/js/main.a7259b88.chunk.js",
-    "main.js.map": "/DataX-Project/static/js/main.a7259b88.chunk.js.map",
+    "main.js": "/DataX-Project/static/js/main.ecd86979.chunk.js",
+    "main.js.map": "/DataX-Project/static/js/main.ecd86979.chunk.js.map",
     "runtime-main.js": "/DataX-Project/static/js/runtime-main.d4418500.js",
     "runtime-main.js.map": "/DataX-Project/static/js/runtime-main.d4418500.js.map",
     "static/css/2.f4c56af9.chunk.css": "/DataX-Project/static/css/2.f4c56af9.chunk.css",
@@ -47,6 +47,6 @@
     "static/css/2.f4c56af9.chunk.css",
     "static/js/2.1b05d495.chunk.js",
     "static/css/main.57776b75.chunk.css",
-    "static/js/main.a7259b88.chunk.js"
+    "static/js/main.ecd86979.chunk.js"
   ]
 }
