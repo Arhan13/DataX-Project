@@ -6,6 +6,8 @@ import Stats from "./pages/Stats"
 import Profile from "./pages/Profile"
 import About from "./pages/About"
 import Home from "./pages/Home"
+import { ToastContainer, toast } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 
 function App() {
 	return (
@@ -20,6 +22,7 @@ function App() {
 					<Route path="/" component={Home} exact />
 				</Switch>
 			</div>
+			<ToastContainer />
 		</Router>
 	)
 }

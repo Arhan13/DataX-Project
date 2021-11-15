@@ -2,6 +2,7 @@ import React from "react"
 import './Home.css'
 import { useHistory } from 'react-router-dom';
 import market from "../assets/market.svg"
+import grades from "../assets/grades.svg"
 import vault from "../assets/vault.svg"
 
 export default function Home() {
@@ -38,7 +39,7 @@ export default function Home() {
                     {/* <button type="button" class="button">SUBSCRIBE</button> */}
                 </div>
             </div>
-            <img src={vault} style={{paddingLeft:"200px"}}/>
+            <img src={grades} style={{paddingLeft:"200px",transform:"scale(1.25)"}}/>
         </div>
     )
 }
