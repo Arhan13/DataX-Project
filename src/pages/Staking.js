@@ -333,7 +333,7 @@ function Staking() {
 					<div style={{fontSize:"25px", marginBottom:"15px"}}>How many items you are left with:<span style={{fontWeight:"bold", marginLeft:"3px"}}>{inputFields[i.current].quantity} items</span></div>
 					<div style={{fontSize:"25px", marginBottom:"15px"}}>How many you should purchase:<span style={{fontWeight:"bold", marginLeft:"3px"}}>{(Math.abs(inputFields[i.current].dtb*inputFields[i.current].spd-inputFields[i.current].quantity)*2.5).toFixed(0)} items</span></div>
 					<div style={{fontSize:"25px", marginBottom:"15px"}}>By when you will exhaust your current stock:<span style={{fontWeight:"bold", marginLeft:"3px"}}>{(inputFields[i.current].quantity/inputFields[i.current].spd).toFixed(1)} days</span></div>
-					<div style={{fontSize:"25px", marginBottom:"15px"}}>Days it will work after restocking:<span style={{fontWeight:"bold", marginLeft:"3px"}}>{Math.round((Math.abs(inputFields[i.current].dtb*inputFields[i.current].spd)*2.5 + inputFields[i.current].quantity)/inputFields[i.current].spd).toFixed(1)} days</span></div>
+					<div style={{fontSize:"25px", marginBottom:"15px"}}>Days it will work after restocking:<span style={{fontWeight:"bold", marginLeft:"3px"}}>{(inputFields[i.current].quantity/inputFields[i.current].spd + 15).toFixed(1)} days</span></div>
 					<div style={{fontSize:"25px", marginBottom:"15px"}}>Net profit you can gain:<span style={{fontWeight:"bold", marginLeft:"3px"}}>Rs {Math.round((Math.abs(inputFields[i.current].dtb*inputFields[i.current].spd-inputFields[i.current].quantity)*2.5 + inputFields[i.current].quantity)*inputFields[i.current].p).toFixed(2)}</span></div>
 					<img src={chore} />
 				</Box>
